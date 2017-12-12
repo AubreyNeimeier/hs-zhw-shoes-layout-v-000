@@ -290,7 +290,7 @@ iframe {
 
 .col-3{
 	float:left;
-	width:30%
+	width:32%
 }
 
 [class*="-"] { /* selects anything that has a class containing "-" and adds
