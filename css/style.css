@@ -293,6 +293,11 @@ iframe {
 	width:30%
 }
 
+[class*="-"] { /* selects anything that has a class containing "-" and adds
+the following property:value */
+  margin-left: 2%;
+}
+
 .first {
   margin-left:0%;
 } /* we don't want first column to be displaced on the left so we make a
