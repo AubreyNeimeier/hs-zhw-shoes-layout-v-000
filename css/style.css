@@ -272,6 +272,7 @@ iframe {
 	}
 
 	.col-1{
+	clear: both;
   float:left;
 	/* 32 *2 = 64. but add 2% for absorbed margin
 	remember of three columns -- 1 will span 2/3 and the last 1/3.
@@ -281,12 +282,23 @@ iframe {
 }
 
 .col-2{
-  float:left;
+	clear: both;
+  float:right;
   width: 32%;
 	 /* factor in space for margin (2 percent in between each column)
 	  100-4% / 3 */
 }
 
+.col-3{
+	clear:both;
+	display:inline-block;
+	width:32%
+}
+
+.first {
+  margin-left:0%;
+} /* we don't want first column to be displaced on the left so we make a
+new class and set the margin-left to be 0%. */
 
 /********** Details **********/
 
